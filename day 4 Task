@@ -1,0 +1,27 @@
+# create three variables with same value
+
+a = b = c =25
+
+# divide a by 15
+divi = a/15
+print(int(divi))
+
+# multiply b by 40
+mul = b * 40
+print(mul)
+
+# add c value by 50
+add_1 = c + 50
+print(add_1)
+
+# create string of 5 charcters and replace 3rd character with G
+var_1 = "asdfg"
+x = var_1.replace(var_1[2],"G")
+print(x)
+
+# create two values of int float datatypes and covert them viceversa
+a,b = 22,35.4
+a1 = (float(a))
+b1 = (int(b))
+print(a1,b1)
+
